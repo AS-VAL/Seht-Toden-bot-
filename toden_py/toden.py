@@ -20,8 +20,8 @@ load_dotenv()
 # Define intents
 intents = discord.Intents.default()
 intents.message_content = True
-YOUTUBE_API_KEY = "AIzaSyDVco3BHPe_VLU8lhhDXr60nfBznrnuQRA"
-API_KEY = "d604377c02a5476581fadad3c3c78750"
+YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
+API_KEY = os.getenv("API_KEY")
 SENT_VIDEOS_FILE="sent_videos.json"
 # Initialize YouTube API client
 youtube = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
