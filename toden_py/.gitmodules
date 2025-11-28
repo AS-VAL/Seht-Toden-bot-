@@ -1,0 +1,6 @@
+[submodule "Seht-Toden-bot-"]
+	path = Seht-Toden-bot-
+	url = https://github.com/AS-VAL/Seht-Toden-bot-
+[submodule "toden_py"]
+	path = toden_py
+	url = https://github.com/AS-VAL/Seht-Toden-bot-
