@@ -1,4 +1,4 @@
-#!/home/opc/toden_py/.venv/bin/python3.11
+#!/home/opc/Seht-Toden-bot-/toden_py/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
