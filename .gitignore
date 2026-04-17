@@ -1,0 +1,19 @@
+# Security: Keep your API keys and tokens out of GitHub
+
+**/.env
+token.json
+credentials.json
+.venv/
+venv/
+env/
+ENV/
+# Python: Ignore messy cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+env/
+
+# Docker: Ignore local data if you don't want it synced
+*.log
